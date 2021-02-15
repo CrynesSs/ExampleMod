@@ -47,7 +47,7 @@ public class ExamplePieces {
     static IStructurePieceType register(IStructurePieceType type,String key){
         return Registry.register(Registry.STRUCTURE_PIECE,key.toLowerCase(Locale.ROOT),type);
     }
-    //this is gonna be wild i promise
+    //static keyword to register the Patterns in time
     static {
         //RuleStructureProcessor for Transforming around 10% of the Stone Bricks to Cracked Stone Bricks
         ImmutableList<StructureProcessor> transformStone = ImmutableList.of(

@@ -49,6 +49,7 @@ public class ExampleMod
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        //Add the Features to the designated Biomes
         FeatureInit.addToBiomes();
     }
 
